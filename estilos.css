@@ -1,0 +1,40 @@
+body{
+	background-color: #F5F5F5;
+  	font-family : Sans-Serif, Arial;
+  	font-size : 16px;
+}
+
+.contenedor{
+	display : block;
+	margin : 20px auto;
+	width: 50%;
+	background-color: #D1C4E9;
+}
+.contenedor h2 {
+	background-color: #673AB7;
+	padding: 7px;
+	color: #FFFFFF;
+	margin:0;
+	text-align: center;
+	font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.contenedor .contenedor-progreso label{
+	display: block;
+	font-size: 1em;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+.contenedor .contenedor-progreso .barra-total{
+	height: 10px;
+	width: 100%;
+	background-color: #B39DDB;
+}
+
+.contenedor .contenedor-progreso .barra-total .barra-dinamica{
+	height: 10px;
+	width: 0%;
+	background-color: #512DA8;
+}
