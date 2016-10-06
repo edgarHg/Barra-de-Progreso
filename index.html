@@ -3,15 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Barra de progreso con AngularJs</title>
-		<link rel="stylesheet" href="estilos.css" />
+		<link rel="stylesheet" href="../style-edgarHg/css/reset.css" />
+		<link rel="stylesheet" href="../style-edgarHg/css/fonts.css" />
+		<link rel="stylesheet" href="../style-edgarHg/css/estilo.css" />
 		<script src="https://code.angularjs.org/1.5.8/angular.js" type="text/javascript"></script>
 		<script src="https://code.angularjs.org/1.5.8/angular-animate.js" type="text/javascript"></script>
 		<script src="app.js" type="text/javascript"></script>
 	</head>
 	<body ng-app="App" ng-controller="ctrlBarraProgreso">
-		<div class="contenedor">
-			<h2>Barra de progreso</h2>
-			<barra-progreso porcentaje="{{intPorcentaje}}"></barra-progreso>
-		</div>
+		<header>
+			<nav> </nav>
+			<div class="titulo">
+				<h1>Barra de Progreso</h1>
+			</div>
+		</header>
+		<section class="contenido">
+			<article class="article-1column">
+				<barra-progreso porcentaje="{{intPorcentaje}}"></barra-progreso>
+			</article>
+		</section>
+		<footer>
+			<p>&copy; 2016 EdgarHg<p>
+		</footer>
 	</body>
 </html>
